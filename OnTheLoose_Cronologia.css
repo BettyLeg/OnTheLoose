@@ -22,7 +22,15 @@
     flex-direction: column;
     line-height: 12px;
 }
+.btbotlcr-modulo:hover > i {
+    transform: rotate(-15deg);
+    color: var(--accent);
+    opacity: .3;
+    font-size: 46px;
+}
+
 .btbotlcr-modulo > i {
+    transition: all .4s;
     position: absolute;
     top: 5px;
     font-size: 50px;
