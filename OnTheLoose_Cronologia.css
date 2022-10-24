@@ -1,6 +1,12 @@
 .btb-otl22light{--border: 1px solid #e1e1e1; --background-1: #fafafa; --background-2: #f3f3f3; --accent: #be9a8a;}
 .btb-otlrelaciones > br{display:none;}.btb-otlrelaciones{background: var(--background-2); padding: 10px; box-sizing: border-box; display: grid; grid-template-columns: repeat(2,246px); gap: 5px; border:var(--border);}
 .btb-otl22rels{width: 518px; border: 10px solid var(--background-1);outline:var(--border); margin: 10px auto;}
+.btb-otl22night {
+    --border: 1px solid #444;
+    --background-1: #222;
+    --background-2: #333;
+    --color: #3a3a3a;
+}
 .btbotlmc-descripcion > span {
     text-transform: uppercase;
     font-size: 10px;
